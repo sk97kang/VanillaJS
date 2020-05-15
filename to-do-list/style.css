@@ -1,0 +1,54 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  padding: 0;
+}
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+input {
+  all: unset;
+  text-align: left;
+  outline: none;
+  border-bottom: 1px solid #000;
+  box-shadow: 0 1px 0 0 #000;
+  font-size: 20px;
+}
+
+.container .toDos {
+  background-color: #f2f2f2;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0px;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2), 0 6px 6px rgba(0, 0, 0, 0.25);
+}
+
+button {
+  all: unset;
+  background-color: tomato;
+  border-radius: 10px;
+  padding: 5px 10px;
+  font-size: 10px;
+  margin: 0px 10px;
+}
+
+ul,
+li {
+  list-style: none;
+  padding: 0px;
+}
